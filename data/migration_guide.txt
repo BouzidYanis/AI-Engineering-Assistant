@@ -1,0 +1,36 @@
+Migration Guide - Version 2.0
+
+AUTHENTICATION
+
+Starting from version 2.0, the authentication provider must be
+explicitly configured using the "auth_provider" parameter.
+
+The legacy "auth.mode" parameter is deprecated and should no
+longer be used.
+
+Applications without an authentication provider will fail
+during startup.
+
+
+NETWORKING
+
+The default request timeout has changed from 30 seconds to
+60 seconds.
+
+Applications relying on the previous timeout behavior should
+review their timeout configuration.
+
+
+CONNECTION MANAGEMENT
+
+Version 2.0 introduces the "max_connections" parameter.
+
+The recommended default value is 100.
+
+
+BREAKING CHANGES
+
+- Authentication provider configuration is mandatory.
+- auth.mode is deprecated.
+- Applications using legacy authentication configuration
+  must migrate before upgrading.

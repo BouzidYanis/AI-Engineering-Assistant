@@ -1,0 +1,7 @@
+2026-09-26 10:15:02 INFO Application started
+2026-09-26 10:15:03 INFO Database connection established
+2026-09-26 10:15:04 WARNING Configuration auth.mode is deprecated
+2026-09-26 10:15:05 INFO Loading authentication provider
+2026-09-26 10:15:06 ERROR Failed to load authentication provider
+2026-09-26 10:15:06 ERROR Missing configuration: auth.provider
+2026-09-26 10:15:07 ERROR Application startup aborted

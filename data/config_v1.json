@@ -1,0 +1,7 @@
+{
+    "database_url": "localhost:5432",
+    "debug": false,
+    "auth_mode": "oauth2",
+    "auth_provider": "google",
+    "timeout": 30
+}

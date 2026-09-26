@@ -1,0 +1,7 @@
+{
+    "database_url": "localhost:5432",
+    "debug": false,
+    "auth_mode": "oauth2",
+    "timeout": 60,
+    "max_connections": 100
+}
